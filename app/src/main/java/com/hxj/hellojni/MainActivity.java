@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView mTvMessage;
 
     static {
-        System.loadLibrary("hello-jni");
+        System.loadLibrary("hello-lua");
     }
 
     public native String messageFromJNI();
